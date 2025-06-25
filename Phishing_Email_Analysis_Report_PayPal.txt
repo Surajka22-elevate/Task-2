@@ -1,0 +1,36 @@
+
+Phishing Email Analysis Report
+==============================
+
+Name: Suraj Kanaujiya
+Tool Used: Header Analyzer, Email Client, VirusTotal
+
+1. Email Overview
+-----------------
+Sender Address: service@paypal-alert.com
+Subject Line: "Unusual Login Attempt Detected"
+Email Type: Phishing Attempt
+
+2. Phishing Indicators Identified
+---------------------------------
+| Indicator              | Description                                                  |
+|------------------------|--------------------------------------------------------------|
+| Suspicious Sender      | Domain (paypal-alert.com) is not official PayPal domain      |
+| Mismatched URLs        | Link text says "Log in to PayPal" but points to phishing site |
+| Header Spoofing        | SPF/DKIM failed – email could be forged                      |
+| Urgent Language        | "Account access will be locked within 24 hours!"             |
+| Poor Grammar           | Sentences like "We notice something not normal activity"     |
+| Generic Greeting       | Uses "Dear Customer" instead of user's real name             |
+| Attachment             | HTML file designed to mimic PayPal login page                |
+
+3. Security Recommendations
+---------------------------
+- Always verify email domain before clicking links.
+- Do not open or interact with unexpected attachments.
+- Use official apps or manually type the website URL.
+- Report phishing attempts to PayPal's phishing inbox (phishing@paypal.com).
+
+4. Key Learning
+---------------
+This task helped identify and analyze key phishing indicators, including spoofed sender domains, suspicious links, and urgent social engineering tactics. Email header analysis is crucial in validating sender authenticity.
+
