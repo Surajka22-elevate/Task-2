@@ -14,7 +14,7 @@ Identify phishing traits from a suspicious email and document red flags such as 
 4. Identified urgent language and grammar errors
 
 🧾 Sample Report
-- See `Phishing_Email_Analysis_Report.txt` for full summary
+- See `Phishing_Email_Analysis_Report_paypal.txt` for full summary
 
 📘 Key Concepts
 Phishing detection, email spoofing, social engineering, header analysis, threat reporting.
